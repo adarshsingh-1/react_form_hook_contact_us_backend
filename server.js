@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
 
 
 
-app.post('/api/contact', async (req, res) => {
+app.post('/contact', async (req, res) => {
   try {
     // Create a new contact instance with data from the request body
     const newContact = new Contact({

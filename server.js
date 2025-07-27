@@ -9,6 +9,8 @@ const PORT = 3000;
 app.use(express.json());
 app.use(cors());
 
+console.log("CORS middleware has been enabled!");
+
 
 
 const mongoURI = 'mongodb+srv://adarshsingh:mypassword1234@cluster0.wsagmda.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
